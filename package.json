@@ -58,5 +58,9 @@
         "prettier": "^2.0.4",
         "react-app-rewired": "^2.1.5",
         "source-map-explorer": "^2.4.2"
+    },
+    "resolutions": {
+        "react-scripts/**/serialize-javascript": "3.1.0",
+        "react-scripts/**/node-forge": "0.10.0"
     }
 }
