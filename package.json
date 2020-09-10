@@ -19,7 +19,8 @@
         "react-lazyload": "^2.6.7",
         "react-scripts": "3.4.1",
         "react-tooltip": "^4.2.3",
-        "rsup-progress": "^1.4.0"
+        "rsup-progress": "^1.4.0",
+        "serialize-javascript": "^5.0.0"
     },
     "scripts": {
         "start": "react-app-rewired start",
