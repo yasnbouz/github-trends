@@ -5,7 +5,11 @@ function Footer() {
         <StyledFooter>
             <p>
                 Made with <span>&hearts;</span> by
-                <a target="blank" href="https://twitter.com/yasnbouz">
+                <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://twitter.com/yasnbouz"
+                >
                     @yasnbouz
                 </a>
             </p>

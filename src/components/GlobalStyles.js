@@ -54,6 +54,7 @@ export default function GlobalStyles() {
                 svg,
                 img {
                     max-width: 100%;
+                    height: auto;
                 }
 
                 ::-webkit-scrollbar {

@@ -29,7 +29,13 @@ function Card({
                 </div>
             )}
             <LazyLoad height={200} once={true} offset={100}>
-                <img data-testid="repo-img" src={avatar} alt={login} />
+                <img
+                    data-testid="repo-img"
+                    width={186.66}
+                    height={186.66}
+                    src={avatar}
+                    alt={login}
+                />
             </LazyLoad>
             {subheader && (
                 <h3 data-testid="repo-score" className="score">
@@ -37,7 +43,12 @@ function Card({
                 </h3>
             )}
             <h3>
-                <a data-testid="repo-link" href={href} target="blank">
+                <a
+                    data-testid="repo-link"
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     {name}
                 </a>
             </h3>
@@ -94,8 +105,8 @@ const StyledPlayerCard = styled.article`
     }
     img {
         border-radius: inherit;
-        width: 10rem;
-        height: 10rem;
+        /* width: 10rem;
+        height: 10rem; */
         margin-top: 1rem;
     }
     .score {

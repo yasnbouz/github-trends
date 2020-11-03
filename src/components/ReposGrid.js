@@ -66,7 +66,8 @@ function ProfileList({ profile }) {
                 <a
                     data-testid="github-profile"
                     href={`https://github.com/${login}`}
-                    target="blank"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
                     {login}
                 </a>

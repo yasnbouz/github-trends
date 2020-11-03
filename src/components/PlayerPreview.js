@@ -12,10 +12,14 @@ function PlayerPreview({ username, onReset, label }) {
             <div>
                 <img
                     data-testid="player-img"
+                    width={80}
+                    height={80}
                     src={`https://github.com/${username}.png?size=200`}
                     alt={label}
                 />
-                <a data-testid="player-link" href={`https://github.com/${username}`}>{username}</a>
+                <a data-testid="player-link" href={`https://github.com/${username}`}>
+                    {username}
+                </a>
                 <button data-testid="player-reset" onClick={onReset}>
                     <FaTimesCircle color="rgb(194,57,42)" size={26} />
                 </button>
@@ -48,8 +52,6 @@ const StyledPlayerPreview = styled.div`
         align-items: center;
 
         img {
-            width: 80px;
-            height: 80px;
             object-fit: cover;
             border-radius: 50%;
             padding: 0.4em;
