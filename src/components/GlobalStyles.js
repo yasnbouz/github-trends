@@ -34,6 +34,9 @@ export default function GlobalStyles() {
                     min-height: 100vh;
                     -webkit-touch-callout: none;
                 }
+                :focus:not(:focus-visible) {
+                    outline: none;
+                }
 
                 #root {
                     min-height: 100vh;
