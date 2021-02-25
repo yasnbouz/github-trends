@@ -8,7 +8,7 @@ function Footer() {
                 <a
                     rel="noopener noreferrer"
                     target="_blank"
-                    href="https://twitter.com/yasnbouz"
+                    href="https://github.com/yasnbouz"
                 >
                     @yasnbouz
                 </a>
