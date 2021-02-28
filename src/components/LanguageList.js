@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 import themeContext from "contexts/theme";
 
 function LanguageList({ selected, onUpdateLanguage }) {
-    const languages = ["JavaScript", "TypeScript", "Java", "C++", "C#", "Python"];
+    const languages = ["JavaScript", "TypeScript", "Java", "Go", "CSharp", "Python"];
     const theme = useContext(themeContext);
     const isdark = theme === "dark";
     return (
@@ -38,7 +38,7 @@ LanguageList.propTypes = {
 const Lists = styled.ul`
     margin: 0 auto 1rem;
     list-style-type: none;
-    max-width: 30rem;
+    max-width: 32rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
