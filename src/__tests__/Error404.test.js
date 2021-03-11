@@ -8,5 +8,3 @@ test("<Error404", () => {
     expect(getByTestId("page-home")).toHaveTextContent("Homepage");
     expect(getByTestId("page-home").getAttribute("href")).toBe("/");
 });
-
-
